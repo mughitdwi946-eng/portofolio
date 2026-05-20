@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV Mughit Dwi</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      padding:30px;
+    }
+
+    .cv{
+      max-width:900px;
+      margin:auto;
+      background:white;
+      display:flex;
+      box-shadow:0 0 15px rgba(0,0,0,0.1);
+      border-radius:12px;
+      overflow:hidden;
+    }
+
+    .left{
+      width:35%;
+      background:#1e293b;
+      color:white;
+      padding:30px;
+    }
+
+    .left img{
+      width:150px;
+      height:150px;
+      border-radius:50%;
+      object-fit:cover;
+      margin-bottom:20px;
+      border:4px solid white;
+      object-position: center 10%;
+      filter: brightness(1.12) contrast(1.1) saturate(1.2) greyscale(0.2);
+    }
+
+    .left h2{
+      margin-bottom:10px;
+      font-size:22px;
+    }
+
+    .section{
+      margin-top:30px;
+    }
+
+    .section h3{
+      margin-bottom:10px;
+      color:#38bdf8;
+      border-bottom:1px solid rgba(255,255,255,0.3);
+      padding-bottom:5px;
+    }
+
+    .section p,
+    .section li{
+      font-size:14px;
+      line-height:1.7;
+    }
+
+    .right{
+      width:65%;
+      padding:40px;
+    }
+
+    .right h1{
+      font-size:38px;
+      color:#0f172a;
+    }
+
+    .job{
+      color:#475569;
+      margin-bottom:25px;
+    }
+
+    .right-section{
+      margin-bottom:30px;
+    }
+
+    .right-section h2{
+      color:#0ea5e9;
+      margin-bottom:10px;
+      border-bottom:2px solid #e2e8f0;
+      padding-bottom:5px;
+    }
+
+    .card{
+      margin-bottom:15px;
+    }
+
+    .card h4{
+      color:#111827;
+      margin-bottom:5px;
+    }
+
+    .card span{
+      font-size:13px;
+      color:#64748b;
+    }
+
+    .card p{
+      margin-top:5px;
+      font-size:14px;
+      line-height:1.6;
+    }
+
+    ul{
+      padding-left:20px;
+    }
+
+    @media(max-width:768px){
+      .cv{
+        flex-direction:column;
+      }
+
+      .left,
+      .right{
+        width:100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv">
+
+    <!-- KIRI -->
+    <div class="left">
+
+      <img src="profil.jpg" alt="Foto Profil">
+
+      <h2>Mughit Dwi Allatif</h2>
+      <p>Mahasiswa Sistem Informasi</p>
+
+      <div class="section">
+        <h3>Kontak</h3>
+        <p>📞 0852-4402-6703</p>
+        <p>📧 mughitdwi946@gmail.com</p>
+        <p>📍 Banten, Indonesia</p>
+      </div>
+
+      <div class="section">
+        <h3>Skill</h3>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>JavaScript Dasar</li>
+          <li>Microsoft Office</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Bahasa</h3>
+        <ul>
+          <li>Indonesia</li>
+          <li>Inggris Dasar</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- KANAN -->
+    <div class="right">
+
+      <h1>Mughit Dwi Allatif</h1>
+      <p class="job">Mahasiswa | Web Beginner</p>
+
+      <div class="right-section">
+        <h2>Tentang Saya</h2>
+        <p>
+          Saya adalah mahasiswa yang memiliki minat di bidang teknologi,
+          khususnya web development dan desain digital. Saya suka belajar
+          hal baru, aktif dalam organisasi, dan mampu bekerja sama dalam tim.
+        </p>
+      </div>
+
+      <div class="right-section">
+        <h2>Pendidikan</h2>
+
+        <div class="card">
+          <h4>Universitas Pamulang</h4>
+          <span>2025 - Sekarang</span>
+          <p>S1 Sistem Informasi</p>
+        </div>
+
+        <div class="card">
+          <h4>SMA Negeri 1 Banjarsari</h4>
+          <span>2022 - 2025</span>
+          <p>Jurusan IPS</p>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <h2>Pengalaman</h2>
+
+        <div class="card">
+          <h4>Panitia Acara Sekolah</h4>
+          <span>2024</span>
+          <p>
+            Bertanggung jawab mengatur jalannya acara dan membantu koordinasi tim.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="right-section">
+        <h2>Hobi</h2>
+        <p>Sepak bola, desain, gaming, editing video</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
