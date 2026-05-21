@@ -346,8 +346,6 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
-
-/* Wadah kotak hobi memakai sistem grid otomatis */
 .hobbies-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -365,28 +363,28 @@ footer {
 }
 
 /* Efek menyala pas kursor nempel di kotak hobi */
-.hobbies-card:hover {
+.hobby-card:hover {
     transform: translateY(-5px);
     border-color: var(--accent); /* Garis pinggir sewarna neon kamu */
     box-shadow: 0 8px 25px rgba(255, 0, 60, 0.15); /* Efek glow tipis */
 }
 
 /* Style ikon hobi */
-.hobbies-icon {
+.hobby-icon {
     font-size: 2.2rem;
     color: var(--accent);
     margin-bottom: 1rem;
 }
 
 /* Judul hobi */
-.hobbies-card h3 {
+.hobby-card h3 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
     color: var(--text);
 }
 
 /* Deskripsi hobi */
-.hobbies-card p {
+.hobby-card p {
     font-size: 0.85rem;
     opacity: 0.7;
     line-height: 1.5;
