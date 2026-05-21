@@ -356,7 +356,7 @@ footer {
 }
 
 /* Kartu hobi individual */
-.hobby-card {
+.hobbies-card {
     background: rgba(255, 255, 255, 0.03); /* Transparan mika tipis */
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 12px;
@@ -365,7 +365,7 @@ footer {
 }
 
 /* Efek menyala pas kursor nempel di kotak hobi */
-.hobby-card:hover {
+.hobbies-card:hover {
     transform: translateY(-5px);
     border-color: var(--accent); /* Garis pinggir sewarna neon kamu */
     box-shadow: 0 8px 25px rgba(255, 0, 60, 0.15); /* Efek glow tipis */
